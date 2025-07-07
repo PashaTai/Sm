@@ -115,6 +115,20 @@ const ContactForm: React.FC = () => {
             ></textarea>
           </div>
 
+          <div className="flex items-start gap-3">
+            <input
+              type="checkbox"
+              id="privacyConsent"
+              name="privacyConsent"
+              defaultChecked={true}
+              className="mt-1 w-5 h-5 text-accent bg-gray-100 border-gray-300 rounded focus:ring-accent focus:ring-2"
+              required
+            />
+            <label htmlFor="privacyConsent" className="text-sm text-secondary leading-relaxed">
+              Я согласен с условиями обработки персональных данных
+            </label>
+          </div>
+
           <button 
             type="submit" 
             disabled={state.submitting}
