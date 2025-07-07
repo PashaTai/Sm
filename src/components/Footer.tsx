@@ -37,6 +37,11 @@ const Footer: React.FC = () => {
                   Политика обработки персональных данных
                 </a>
               </p>
+              <p className="text-[#86868b] text-sm">
+                <a href="/privacy" className="hover:text-white transition-colors">
+                  Политика конфиденциальности
+                </a>
+              </p>
             </div>
 
             {/* Column 2 - Services */}
