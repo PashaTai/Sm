@@ -32,6 +32,11 @@ const Footer: React.FC = () => {
               <p className="text-[#86868b] mb-8">
                 Улучшаем вашу репутацию в интернете — честно, эффективно и с гарантией
               </p>
+              <p className="text-[#86868b] text-sm">
+                <a href="/privacy-policy" className="hover:text-white transition-colors">
+                  Политика обработки персональных данных
+                </a>
+              </p>
             </div>
 
             {/* Column 2 - Services */}
@@ -56,11 +61,6 @@ const Footer: React.FC = () => {
                 <li>
                   <a href="#" className="text-[#86868b] hover:text-white transition-colors">
                     Международное продвижение
-                  </a>
-                </li>
-                <li>
-                  <a href="/privacy-policy" className="text-[#86868b] hover:text-white transition-colors">
-                    Политика конфиденциальности
                   </a>
                 </li>
               </ul>
