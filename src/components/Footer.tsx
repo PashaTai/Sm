@@ -58,6 +58,11 @@ const Footer: React.FC = () => {
                     Международное продвижение
                   </a>
                 </li>
+                <li>
+                  <a href="/privacy-policy" className="text-[#86868b] hover:text-white transition-colors">
+                    Политика конфиденциальности
+                  </a>
+                </li>
               </ul>
             </div>
 

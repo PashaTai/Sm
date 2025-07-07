@@ -125,7 +125,7 @@ const ContactForm: React.FC = () => {
               required
             />
             <label htmlFor="privacyConsent" className="text-sm text-secondary leading-relaxed">
-              Я согласен с условиями обработки персональных данных
+              Я согласен с <a href="/privacy-policy" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">условиями обработки персональных данных</a>
             </label>
           </div>
 

@@ -32,6 +32,16 @@ const Router: React.FC<RouterProps> = ({ path }) => {
     }
   }
 
+  if (pathSegments[0] === 'privacy-policy' && pathSegments.length === 1) {
+    // Privacy policy page
+    const PrivacyPolicy = React.lazy(() => import('./PrivacyPolicy'));
+    return (
+      <React.Suspense fallback={<div className="min-h-screen flex items-center justify-center">Загрузка...</div>}>
+        <PrivacyPolicy />
+      </React.Suspense>
+    );
+  }
+
   // 404 page
   return (
     <div className="min-h-screen flex items-center justify-center bg-background">
